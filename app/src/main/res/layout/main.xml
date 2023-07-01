@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:textColor="#3F51B5"
+			android:inputType="textWebEditText"
+			android:layout_weight="1.0"
+			android:id="@+id/mainEditText1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="应用到磁贴一"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:id="@+id/mainButton1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:textColor="#3F51B5"
+			android:inputType="textWebEditText"
+			android:layout_weight="1.0"
+			android:id="@+id/mainEditText2"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="应用到磁贴二"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:id="@+id/mainButton2"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:textColor="#3F51B5"
+			android:inputType="textFilter"
+			android:layout_weight="1.0"
+			android:id="@+id/mainEditText3"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="应用到磁贴三"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:id="@+id/mainButton3"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/app_zuozhe"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/app_lianxi"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/app_bangzhu"
+			android:textColor="#000000"
+			android:textStyle="bold"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

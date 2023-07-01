@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MagnetUrl</string>
+	<string name="app_zuozhe">作者：Zero</string>
+	<string name="app_lianxi">邮箱：2767832980@qq.com</string>
+	<string name="app_bangzhu">使用帮助：输入网址(带有http://或https://)点击“应用到磁贴”，然后下滑状态栏把磁贴添加到开关处。如果想用其他浏览器打开，需要清除默认浏览器设置。(请输入正确的网址)</string>
+</resources>
